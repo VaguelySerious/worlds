@@ -44,9 +44,9 @@
     "typecheck": "tsc --noEmit && tsc -p tsconfig.test.json"
   },
   "dependencies": {
-    "@workflow/errors": "catalog:v4",
-    "@workflow/utils": "catalog:v4",
-    "@workflow/world": "catalog:v4",
+    "@workflow/errors": "catalog:",
+    "@workflow/utils": "catalog:",
+    "@workflow/world": "catalog:",
     "ioredis": "catalog:",
     "ulid": "catalog:"
   },
@@ -55,7 +55,7 @@
     "@fantasticfour/testing": "workspace:*",
     "@testcontainers/redis": "catalog:",
     "@types/node": "catalog:",
-    "@workflow/world-testing": "catalog:v4",
+    "@workflow/world-testing": "catalog:",
     "tsdown": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"
